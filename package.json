@@ -1,0 +1,43 @@
+{
+  "name": "@techandsoftware/image-to-sextants",
+  "version": "1.0.0",
+  "description": "Convert an image to Unicode sextant or teletext block mosaic characters",
+  "exports": "./src/ImageToSextants.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "teletext",
+    "sextant",
+    "sextants",
+    "sixel",
+    "semigraphics",
+    "legacy computing",
+    "pixels",
+    "unicode",
+    "mosaic",
+    "alphamosaic"
+  ],
+  "author": "Tech & Software Ltd. <techandsoftwareltd@outlook.com>",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "eslint": "^7.32.0"
+  },
+  "type": "module",
+  "dependencies": {},
+  "engines": {
+    "node": ">= 14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/rahardy/image-to-sextants.git"
+  },
+  "files": [
+    "src/ImageToSextants.js",
+    "LICENSES/GPL-2.0-or-later.txt",
+    "src/data",
+    "package.json.license"
+  ],
+  "ava": {}
+}
